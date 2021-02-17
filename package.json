@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wahyusa/Sergey-Tailwind.git"
+    "url": "git+https://github.com/mariocontext/Sergey-Tailwind"
   },
   "keywords": [],
-  "author": "Wahyu Syamsul Alam",
+  "author": "Mario Noble",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^10.1.0",

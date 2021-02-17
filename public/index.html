@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our lil' website</title>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,8 +16,8 @@
   <main class="bg-green-700 text-gray-100 min-h-screen flex flex-col justify-center items-center">
     <h1 class="text-3xl">Welcome!</h1>
     <p>Our page content.</p>
+    <p x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></pn>
     <p>Refresh to see changes! :(</p>
-    <img src="assets/motis.png" class="w-32 h-32 rounded-full shadow-2xl">
   </main>
 </body>
 </html>
