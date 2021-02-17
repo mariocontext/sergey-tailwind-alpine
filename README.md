@@ -1,31 +1,25 @@
-# Sergey-Tailwind
+# Sergey-Tailwind-Alpine
 
-Basic Sergey Static site generator with Tailwind CSS v2 including autoprefixer and postcss.
+Basic Sergey Static site generator with Tailwind CSS v2 including autoprefixer and postcss plus Alpine JS
 
-Official web : https://sergey.cool
+Official web Static Generator : https://sergey.cool
 
 Official repo : https://github.com/trys/sergey/
 
-# Installation
+Forked off: https://github.com/wahyusa/Sergey-Tailwind
 
-Clone this repo
+Tailwind CSS: https://tailwindcss.com/
 
-Navigate to project folder then run
+Alpine JS: https://github.com/alpinejs/alpine
 
-```
-npm install
-```
+```bash
+$ npm install sergey
 
-If success we'll have node_modules folder you know.. 😉
+$ npm install
 
-# Build style.css for development then launch localhost:8080
+# Build the site
+$ npm start
 
-```
-npm run dev
-```
-
-# Build purged/minified style.css for production
-
-```
-npm run start
+# Run Sergey in dev mode
+$ npm run dev
 ```
